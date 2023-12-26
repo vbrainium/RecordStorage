@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# Converts .mov video files to .mp4 format. 
+# Sets up logging, input/output directories. 
+# Loops through .mov files, converts with HandBrakeCLI, 
+# moves original to processed folder, logs info.
 
 import os
 import subprocess
